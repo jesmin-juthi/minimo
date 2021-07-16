@@ -1,0 +1,138 @@
+/* font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif; */
+
+* {
+    font-family: 'Playfair Display', serif;
+}
+
+/* header style */
+header {
+    padding: 25px 0;
+}
+
+header .nav-link {
+    color: #626262 !important;
+    text-transform: uppercase;
+    margin-left: 45px;
+}
+
+/* banner style */
+.banner {
+    margin-top: 30px;
+}
+
+.banner-content {
+    background-image: url('images/banner.jpg');
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.photodiary {
+    padding: 80px 0;
+}
+
+.photodiary-content {}
+
+.photodiary-content h3 {
+    color: #b4ad9e;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+}
+
+.photodiary-content h1 {
+    font-weight: bold;
+    color: #626262;
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.photodiary-content p {
+    color: #626262;
+}
+
+/* lifestyle css */
+
+.lifestyle {
+    padding: 20px 0 60px;
+}
+
+.lifestyle_content {
+    padding: 40px 0;
+}
+
+.lifestyle_content h3 {
+    color: #b4ad9e;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.lifestyle_content h1 {
+    font-weight: bold;
+    color: #626262;
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.lifestyle_content p {
+    color: #626262;
+}
+
+/* signup section style */
+.signup {
+    padding: 40px 0;
+    background-color: #f0f0f0;
+}
+
+.sign {
+    padding: 60px 0;
+}
+
+.sign h2 {
+    color: #333333;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    border-bottom: 2px solid;
+}
+
+.form-custom {
+    background: transparent;
+    border: 0;
+}
+
+.input-group-text {
+    background: transparent;
+    border: none;
+}
+
+.btn-custom {
+    border: 2px solid #333333;
+    padding: 15px 25px;
+    background: transparent;
+    transition: .4s;
+}
+
+.btn-custom:hover {
+    background: #222;
+    color: #fff;
+}
+
+/* footer style */
+
+footer {
+    background: #f0f0f0;
+    padding: 20px 0;
+}
+
+footer ul li a {
+    color: #222;
+    text-decoration: none;
+}
